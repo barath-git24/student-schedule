@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Planner - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1>📘 Study Planner</h1>
+    <ul>
+      <li><a href="index.html" class="active">Dashboard</a></li>
+      <li><a href="tasks.html">Tasks</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+    </ul>
+  </nav>
+
+  <main class="dashboard">
+    <section class="welcome">
+      <h2>Welcome Back 👋</h2>
+      <p>Track your goals, tasks & deadlines efficiently!</p>
+    </section>
+
+    <section class="stats">
+      <div class="card">
+        <h3 id="totalTasks">0</h3>
+        <p>Total Tasks</p>
+      </div>
+      <div class="card">
+        <h3 id="completedTasks">0</h3>
+        <p>Completed</p>
+      </div>
+      <div class="card">
+        <h3 id="pendingTasks">0</h3>
+        <p>Pending</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
