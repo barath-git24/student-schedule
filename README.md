@@ -27,12 +27,3 @@ Check it out here: [https://studentscheduletask.netlify.app/](https://studentsch
 - **Netlify** – Hosting and deployment  
 
 ---
-
-## 📂 Project Structure
-
-study-planner/
-│── index.html # Dashboard page
-│── tasks.html # Task management page
-│── calendar.html # Calendar / upcoming deadlines page
-│── style.css # CSS for styling and responsive design
-│── script.js # JavaScript logic for tasks & dashboard
